@@ -19,7 +19,7 @@ yargs.command({
   handler: (args) => {
     const { title, description } = args;
     const newTask = createTask(title, description);
-    console.log("Đã tạo mới công việc thành công!!!",  newTask);
+    console.log("Created succesfully!!!",  newTask);
   }
 });
 
